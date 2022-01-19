@@ -11,7 +11,7 @@ export const MostSeller = () => {
   const getData = async () => {
     try {
       const response = await axios.get(
-        "https://serpapi.com/search.json?engine=walmart&query=jeans&api_key=21770f584339aa616d242af76ea182f9e23ef676f5c5c724203845b9146ba9b5"
+        "https://serpapi.com/search.json?engine=walmart&query=jeans&api_key=aef5c16f5780f06192267ec05c103b83410f52e226e2505b13e5d1a622a81ed8"
       )
       console.log(response.data.organic_results)
       setState(response.data.organic_results)

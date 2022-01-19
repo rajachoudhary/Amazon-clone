@@ -38,7 +38,8 @@ export default function AddressInput({ onTaskCreate }) {
 
   return (
     <div>
-      <NavBar/>
+      
+        <div>
         <div className="form_heading">
         <h2>Add a new Address</h2>
         </div>
@@ -167,6 +168,7 @@ export default function AddressInput({ onTaskCreate }) {
             <button className="form_button" onClick={handleSUbmit} type="submit"><Link style={{textDecoration:"none"}} to="./address">Submit</Link> </button>   
         </div>
       </form>
+        </div>
     </div>
   );
 }

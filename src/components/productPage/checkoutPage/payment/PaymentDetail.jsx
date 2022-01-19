@@ -40,7 +40,7 @@ const PaymentDetail = () => {
           </div>
         </div>
         <div className="final_review">
-         <NavLink to="/next2"> <button className="final_review_button">
+         <NavLink to="/placed"> <button className="final_review_button">
             Continue
           </button></NavLink>
           <p className="final_review_button_p">
